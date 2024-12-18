@@ -1,9 +1,9 @@
-1. Problem Definition
-Implement a program that compares total cost of splay and mod-splay trees. The total cost is sum of total number of comparisons and total number of rotations.
+1. Problem Definition:
+   Implement a program that compares total cost of splay and mod-splay trees. The total cost is sum of total number of comparisons and total number of rotations.
 We have mod-splay algorithm in this project. The algorithm is about frequency of occurrence. Inserted element protect its position, whenever its frequency becomes higher than root that time it must be the root by applying zig-zig or zig-zag rotations.
 
-3. Implementation Details
-I started to construct the splay node algorithm. There is a struct to implement splay attributes. This struct define as node with typedef for more convenience.
+3. Implementation Details:
+   I started to construct the splay node algorithm. There is a struct to implement splay attributes. This struct define as node with typedef for more convenience.
 createKey(): Function that creates new node for inserting key into tree.
 leftRotation(): Implements left rotation logic.
 rightRotation(): Implements right rotation logic.
